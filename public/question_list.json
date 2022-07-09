@@ -1,0 +1,19 @@
+{
+    "questions": [
+        {
+            "question": "What is your favorite color?",
+            "answer_one": "answer_one",
+            "answer_two": "answer_two",
+            "answer_three": "answer_three",
+            "answer_four": "answer_four"
+        },
+        {
+            "question": "What is your name?",
+            "answer_one": "answer_one",
+            "answer_two": "answer_two",
+            "answer_three": "answer_three",
+            "answer_four": "answer_four"
+        }
+
+    ]
+}
