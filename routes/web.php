@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//route that loads the questions.
+Route::get('/', [QuestionController::class, "retrieveQuestions"]);
 
-//route to create the quiz
-Route::get('/createQuiz/{type}', [QuizController::class, "createQuiz"]);
-//route to return the question
-Route::get('/getQuestions', [QuestionController::class, "retrieveQuestions"]);
+//route to submit the quiz with answers in the request body.
+Route::post('/submitQuiz', [QuizController::class, "submitQuiz"]);
+
