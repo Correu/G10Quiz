@@ -1,19 +1,27 @@
 {
     "questions": [
         {
-            "question": "What is your favorite color?",
-            "answer_one": "answer_one",
-            "answer_two": "answer_two",
-            "answer_three": "answer_three",
-            "answer_four": "answer_four"
+            "question": "What is 3 + 4?",
+            "answer_one": "4",
+            "answer_two": "3",
+            "answer_three": "7",
+            "answer_four": "10"
         },
         {
-            "question": "What is your name?",
-            "answer_one": "answer_one",
-            "answer_two": "answer_two",
-            "answer_three": "answer_three",
-            "answer_four": "answer_four"
+            "question": "What is 3 x 10?",
+            "answer_one": "300",
+            "answer_two": "3",
+            "answer_three": ".3",
+            "answer_four": "30"
+        },
+        {
+            "question": "What is 10 divided by 2?",
+            "answer_one": "5",
+            "answer_two": "2",
+            "answer_three": "3",
+            "answer_four": "10"
         }
+
 
     ]
 }

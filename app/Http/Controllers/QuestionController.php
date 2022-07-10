@@ -8,7 +8,7 @@ class QuestionController extends Controller
 {
     //return array of questions from json file
     public function retrieveQuestions() {
-        $content = json_decode(file_get_contents(public_path() . "\question_list.json"), true);
+        $content = json_decode(file_get_contents(public_path() . "/question_list.json"), true);
         // print_r($content);
         return view('welcome', ['question' => $content]);
     }
