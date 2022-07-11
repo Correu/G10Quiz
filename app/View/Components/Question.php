@@ -11,6 +11,7 @@ class Question extends Component
      * The String of the Question
      */
     public $question;
+    public $questionNumber;
     public $answerOne;
     public $answerTwo;
     public $answerThree;
@@ -21,10 +22,11 @@ class Question extends Component
      *
      * @return void
      */
-    public function __construct($question, $answerOne, $answerTwo, $answerThree, $answerFour)
+    public function __construct($question, $questionNumber, $answerOne, $answerTwo, $answerThree, $answerFour)
     {
         //
         $this->question = $question;
+        $this->questionNumber = $questionNumber;
         $this->answerOne = $answerOne;
         $this->answerTwo = $answerTwo;
         $this->answerThree = $answerThree;
