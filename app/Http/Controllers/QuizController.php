@@ -14,7 +14,6 @@ class QuizController extends Controller
         $correctAnswers = 0;
         $count = 1;
         foreach($solutions['solutions'] as $solution) {
-            print_r($request->$count);
             if($solution['solution'] == $request->$count) {
                 $correctAnswers++;
             }

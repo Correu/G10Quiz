@@ -2,11 +2,11 @@
 <!-- Start of the body -->
 
 <body class="antialiased">
-    <div class="container">
+    <div class="container p-4">
         <div class="col justify-content-center">
             <h1>Simple Quiz Project</h1>
         </div>
-        <form action="/submitQuiz" method="POST">
+        <form method="POST" action="/submitQuiz" class="was-validated">
             @csrf
             @foreach ($question['questions'] as $quest)
                 <x-question questionNumber="{{ $loop->iteration }}" question="{{ $quest['question'] }}" answerOne="{{ $quest['answer_one'] }}"

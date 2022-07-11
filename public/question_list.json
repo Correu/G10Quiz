@@ -20,6 +20,55 @@
             "answer_two": "2",
             "answer_three": "3",
             "answer_four": "10"
+        },
+        {
+            "question": "What is 7 x 7?",
+            "answer_one": "14",
+            "answer_two": "49",
+            "answer_three": "27",
+            "answer_four": "21"
+        },
+        {
+            "question": "What is 13 + 43?",
+            "answer_one": "56",
+            "answer_two": "23",
+            "answer_three": "30",
+            "answer_four": "1"
+        },
+        {
+            "question": "What is 50 divided by 10?",
+            "answer_one": "50",
+            "answer_two": "10",
+            "answer_three": "5",
+            "answer_four": "100"
+        },
+        {
+            "question": "What is 32 + 23?",
+            "answer_one": "23",
+            "answer_two": "19",
+            "answer_three": "32",
+            "answer_four": "55"
+        },
+        {
+            "question": "What is 27 + 19?",
+            "answer_one": "23",
+            "answer_two": "27",
+            "answer_three": "46",
+            "answer_four": "100"
+        },
+        {
+            "question": "What is 15 divided by 3?",
+            "answer_one": "5",
+            "answer_two": "20",
+            "answer_three": "45",
+            "answer_four": "10"
+        },
+        {
+            "question": "What is 5 x 9?",
+            "answer_one": "45",
+            "answer_two": "27",
+            "answer_three": "14",
+            "answer_four": "30"
         }
     ]
 }
