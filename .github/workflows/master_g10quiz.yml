@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'g10quiz'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57A639B1ADF8453BA2F803216547DDF4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_45D1D88DD19B4002879F8295B117DF15 }}
           package: .
